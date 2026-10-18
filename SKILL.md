@@ -1,5 +1,7 @@
 ---
 name: alpha-despeckle
+displayName: "Alpha Despeckle (透明底去杂点)"
+category: "image-processing"
 slug: alpha-despeckle
 description: "Remove leftover speckle artifacts from transparent-background PNGs produced by matting or keying: semi-transparent haze remnants (alpha below threshold) and isolated island fragments (small connected alpha regions). Use when the user says 'clean up matting residue', 'remove specks on transparent PNG', 'despeckle', 'clear alpha noise', '清理抠像残留', '去透明底杂点', '去碎点'. Defaults to a dry-run report; writes back and auto-creates a byte-level backup only after confirmation."
 agent_created: true
